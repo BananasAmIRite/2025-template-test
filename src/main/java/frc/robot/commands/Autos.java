@@ -12,6 +12,7 @@ public final class Autos {
   }
 
   private Autos() {
+    SomeWeirdClass; 
     throw new UnsupportedOperationException("This is a utility class!");
-  
+  }
 }
