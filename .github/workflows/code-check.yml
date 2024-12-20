@@ -17,7 +17,7 @@ jobs:
                   distribution: 'zulu'
                   java-version: 17
 
-            - name: idk
+            - name: Modify gradlew Pemissions
               run: chmod +x gradlew
 
             - name: Spotless applied
@@ -41,7 +41,7 @@ jobs:
             - name: Add repository to git safe directories
               run: git config --global --add safe.directory $GITHUB_WORKSPACE
 
-            - name: idk 2
+            - name: Modify gradlew Pemissions
               run: chmod +x gradlew
 
             - name: Check spotless
