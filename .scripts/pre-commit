@@ -23,7 +23,7 @@ if [ "$status" = 0 ] ; then
     exit 0
 else
       echo "Static analysis found some problems (maybe your code has some syntax issues?)"
-      echo "We'll ignore it for now but please try to fix it :pleading:"
+      echo "We'll ignore it for now but please try to fix it 🥺"
       exit 0
 #     echo "*********************************************************"
 #     echo "       ********************************************      "
